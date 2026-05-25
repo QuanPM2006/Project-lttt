@@ -1,0 +1,19 @@
+Ma tran kiem tra H (3x13):
+1 1 0 1 1 0 0 1 1 0 1 0 0 
+1 0 1 1 0 1 0 1 0 1 0 1 0 
+1 1 1 0 0 0 1 1 1 1 0 0 1 
+
+Tim khoang cach Hamming nho nhat (d_min):
+- Khong tim thay to hop 1 cot nao co tong bang vector 0.
+- Tim thay to hop 2 cot phu thuoc tuyen tinh. Cu the la cac cot: 7, 13.
+
+Phep cong XOR cua 2 cot nay:
+      Cot 7:  (0 0 1)
+      Cot 13:  (0 0 1)
+      Phep tinh: (0 0 1) + (0 0 1) = (0 0 0)
+
+=> Khoang cach nho nhat: d_min = 2
+
+Kha nang phat hien va sua loi:
+- Kha nang phat hien loi (e): d_min - 1 = 1 (bit).
+- Kha nang sua loi (t): (d_min - 1) / 2 = 0 (bit).
