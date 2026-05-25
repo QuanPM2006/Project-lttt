@@ -1,3 +1,5 @@
+//link github: https://github.com/QuanPM2006/Project-lttt.git
+
 *MÔ TẢ CHUNG VỀ PROJECT
 - Một chương trình C++ được thiết kế để giải quyết bài toán trọng tâm trong Lý thuyết thông tin: Tính toán khoảng cách Hamming nhỏ nhất d_min của một mã khối tuyến tính dựa trên ma trận kiểm tra H.
 - Trình bày lời giải chi tiết: In ra từng bước duyệt tổ hợp, minh họa trực quan phép cộng XOR của các vector cột phụ thuộc tuyến tính để chứng minh kết quả d_min.
