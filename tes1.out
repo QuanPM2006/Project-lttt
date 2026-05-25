@@ -1,0 +1,22 @@
+Ma tran kiem tra H (4x6):
+1 0 1 0 0 0 
+0 1 0 1 0 0 
+0 0 1 0 1 0 
+0 0 0 1 0 1 
+
+Tim khoang cach Hamming nho nhat (d_min):
+- Khong tim thay to hop 1 cot nao co tong bang vector 0.
+- Khong tim thay to hop 2 cot nao co tong bang vector 0.
+- Tim thay to hop 3 cot phu thuoc tuyen tinh. Cu the la cac cot: 2, 4, 6.
+
+Phep cong XOR cua 3 cot nay:
+      Cot 2:  (0 1 0 0)
+      Cot 4:  (0 1 0 1)
+      Cot 6:  (0 0 0 1)
+      Phep tinh: (0 1 0 0) + (0 1 0 1) + (0 0 0 1) = (0 0 0 0)
+
+=> Khoang cach nho nhat: d_min = 3
+
+Kha nang phat hien va sua loi:
+- Kha nang phat hien loi (e): d_min - 1 = 2 (bit).
+- Kha nang sua loi (t): (d_min - 1) / 2 = 1 (bit).
