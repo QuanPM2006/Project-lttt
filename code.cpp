@@ -165,7 +165,7 @@ public:
 
     void inLoiGiaiTuLuan() {
         cout << "Ma tran kiem tra H (" << ma_tran_H.so_hang << "x" << ma_tran_H.so_cot << "):\n" << ma_tran_H;
-        cout << "\n[BUOC 1] Tim khoang cach Hamming nho nhat (d_min):\n";
+        cout << "\nTim khoang cach Hamming nho nhat (d_min):\n";
         
         for (int w = 1; w < d_min; ++w) {
             cout << "- Khong tim thay to hop " << w << " cot nao co tong bang vector 0.\n";
@@ -202,10 +202,10 @@ public:
         
         cout << "=> Khoang cach nho nhat: d_min = " << d_min << "\n\n";
 
-        cout << "[BUOC 2] Kha nang phat hien va sua loi:\n";
+        cout << "Kha nang phat hien va sua loi:\n";
         cout << "- Kha nang phat hien loi (e): d_min - 1 = " << d_min - 1 << " (bit).\n";
         cout << "- Kha nang sua loi (t): (d_min - 1) / 2 = " << (d_min - 1) / 2 << " (bit).\n";
-        cout << "------------------------------------------\n\n";
+        
     }
 };
 
