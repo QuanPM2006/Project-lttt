@@ -23,7 +23,7 @@ Lớp LinearBlockCode:
                            Áp dụng kỹ thuật Cắt tỉa nhánh sớm giúp tối ưu triệt để thời gian chạy.
 
 * HƯỚNG DẪN CÀI ĐẶT
-  Dự án được viết hoàn toàn bằng C++ tiêu chuẩn (C++11/C++14), không sử dụng bất kỳ thư viện bên thứ 3 (third-party) nào.
+  Dự án được viết hoàn toàn bằng C++ tiêu chuẩn.
 
   Yêu cầu hệ thống:
 
